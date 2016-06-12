@@ -30,7 +30,6 @@ class User extends Authenticatable
     {
         $admin = Auth::user();
         $user = $this->where('id','=', $userId)->first();
-        // or eloquent's original technique
         return $user->roles($roles)->attach($admin->id);
 
     }

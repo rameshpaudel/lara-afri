@@ -82,8 +82,12 @@ class PostsController extends ApiController
             'user_id' => Auth::user()->id
         ]);
         $post->retag( explode( ',', $request->get('tags') )  );
-
-        return redirect('watchtower/posts')->with('flash.message', 'Post created successfully');
+        return $this->respond([
+            'message' => 'Post created sucessfully',
+            'redirect' => 'posts',
+            
+            ]);
+        //return redirect('watchtower/posts')->with('flash.message', 'Post created successfully');
     }
 
     /**
