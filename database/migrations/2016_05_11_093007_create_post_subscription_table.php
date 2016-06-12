@@ -12,7 +12,7 @@ class CreatePostSubscriptionTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_tag', function($table)
+        Schema::create('user_tag_subscribe', function($table)
         {
             $table->increments('id');
             $table->unsignedInteger('user_id');
@@ -31,6 +31,6 @@ class CreatePostSubscriptionTable extends Migration
      */
     public function down()
     {
-        Schema::drop('user_tag');
+        Schema::drop('user_tag_subscribe');
     }
 }

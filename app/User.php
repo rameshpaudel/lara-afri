@@ -63,5 +63,8 @@ class User extends Authenticatable
     {
         return $this->hasOne('App\BusinessProfile','user_id');
     }
-
+    public function carousel()
+    {
+        return $this->hasMany('App\Carousel','user_id');
+    }
 }

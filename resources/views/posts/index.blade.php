@@ -36,8 +36,9 @@
                     @foreach($posts as $post)
                         <tr>
                             <td></td>
-                            <td>{{ $post->title }}</td>
-                            <td>{{ $post->content }}</td>
+
+                            <td>{{ _t($post->title ,[], $lang) }}</td>
+                            <td>{{ _t($post->content ,[], $lang) }}</td>
                             @if($post->updated_at !== null)
                             <td>{{ $post->updated_at->diffForHumans() }}</td>
                             @else

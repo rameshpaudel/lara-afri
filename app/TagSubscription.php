@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class TagSubscription extends Model
 {
-    protected $fillable = ['user_id','tags_id'];
-    protected $table = 'user_tag';
+    protected $fillable = ['id','user_id','tags_id'];
+    protected $table = 'user_tag_subscribe';
 
     public function subscriptions()
     {

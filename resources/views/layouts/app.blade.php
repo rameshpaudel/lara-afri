@@ -4,6 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular-route.min.js"></script>
+    <script src="{{ asset('/app/packages/dirPagination.js') }}"></script>
+    <script src="{{ asset('/app/routes.js') }}"></script>
+    <script src="{{ asset('/app/services/myServices.js') }}"></script>
+    <script src="{{ asset('/app/helper/myHelper.js') }}"></script>
+    <!-- App Controller -->
+    <script src="{{ asset('/app/controllers/UserController.js') }}"></script>
 
     <title>
     @section('title')
@@ -29,7 +37,7 @@
         }
     </style>
 </head>
-<body id="app-layout">
+<body id="app-layout" ng-app="main-App">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -52,6 +60,28 @@
                 <!-- Left Side Of Navbar -->
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}">Home</a></li>
+                      <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                Language <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="{{ url('/locale/en') }}">English</a>
+                                    <a href="{{ url('/locale/ne') }}">Nepali</a>
+                                    <a href="{{ url('/locale/fr') }}">French</a>
+                                    <a href="{{ url('/locale/zu') }}">Zulu</a>
+                                    <a href="{{ url('/locale/ar') }}">Arabic</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li >
+                            <a href="{{ url('/lang/posts') }}" >
+                                Posts
+                            </a>
+
+                         
+                        </li>
                 </ul>
 
                 <!-- Right Side Of Navbar -->
@@ -102,13 +132,16 @@
     @if(Session::has('errMsg'))
         <div class="alert alert-warning">{{ Session::get('errMsg') }}</div>
     @endif
+    <div class="container">
+        <ng-view></ng-view>
+    </div>
     @yield('content')
 
     {{-- JavaScripts --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="{{ asset('public/javascripts/selectize.js') }}"></script>
-    <script src="{{ asset('public/javascripts/app.js') }}"></script>
+    <!-- <script src="{{ asset('public/javascripts/selectize.js') }}"></script> -->
+    <!-- <script src="{{ asset('public/javascripts/app.js') }}"></script> -->
 
     @yield('scripts')
 </body>

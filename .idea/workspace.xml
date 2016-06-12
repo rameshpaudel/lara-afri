@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03052473-c01a-41a1-9a33-a6ea36333ece" name="Default" comment="" />
+    <list default="true" id="03052473-c01a-41a1-9a33-a6ea36333ece" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckUsersController.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/TagsSubscriptionController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/TagsSubscriptionController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserRegistrationController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserRegistrationController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Saedi/Transformers/TagsTransformer.php" afterPath="$PROJECT_DIR$/app/Saedi/Transformers/TagsTransformer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/TagSubscription.php" afterPath="$PROJECT_DIR$/app/TagSubscription.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/UserTag.php" afterPath="$PROJECT_DIR$/app/UserTag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_05_11_093007_create_post_subscription_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_05_11_093007_create_post_subscription_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/tags/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/tags/index.blade.php" />
+    </list>
     <ignored path="african.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TagSubscription.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/TagSubscription.php">
+      <file leaf-file-name="UserRegistrationController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserRegistrationController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79881656">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.19636364">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -34,27 +57,16 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
-        <option value="$PROJECT_DIR$/resources/assets/js/jquery.js" />
-        <option value="$PROJECT_DIR$/resources/assets/js/selectize.js" />
-        <option value="$PROJECT_DIR$/resources/views/posts/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Saedi/Repository/BaseRepositoryInteraface.php" />
-        <option value="$PROJECT_DIR$/app/Saedi/Repository/UserRepository/UserRepository.php" />
-        <option value="$PROJECT_DIR$/app/Saedi/Repository/UserRepository/EloquentUserRepository.php" />
-        <option value="$PROJECT_DIR$/resources/template/page_header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/template/page_sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/template/top_bar.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/template/main_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/template/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/template/javaScripts.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/template/head.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/template/page_sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserRegistrationController.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/watchtower/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/database/seeds/WatchtowerSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_06_084223_create_posts_table.php" />
@@ -76,18 +88,32 @@
         <option value="$PROJECT_DIR$/resources/views/posts/script.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/tags.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/app/PostSubscription.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_05_11_093007_create_post_subscription_table.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/resources/views/tags/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TagsSubscriptionController.php" />
         <option value="$PROJECT_DIR$/config/watchtower.php" />
         <option value="$PROJECT_DIR$/vendor/smarch/watchtower/src/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_05_11_093007_create_post_subscription_table.php" />
         <option value="$PROJECT_DIR$/app/TagSubscription.php" />
+        <option value="$PROJECT_DIR$/resources/views/tags/subscribe.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Saedi/Transformers/TagSubscriptionTransformer.php" />
+        <option value="$PROJECT_DIR$/app/UserTag.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TagsSubscriptionController.php" />
+        <option value="$PROJECT_DIR$/resources/views/tags/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Saedi/Transformers/TagsTransformer.php" />
+        <option value="$PROJECT_DIR$/storage/logs/laravel.log" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserRegistrationController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LocaleController.php" />
+        <option value="$PROJECT_DIR$/app/Saedi/Transformers/PostTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AuthenticateController.php" />
       </list>
     </option>
   </component>
@@ -108,10 +134,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="170" />
-    <option name="y" value="145" />
-    <option name="width" value="1026" />
-    <option name="height" value="558" />
+    <option name="y" value="924" />
+    <option name="width" value="1440" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -138,16 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="african" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -284,15 +300,206 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Saedi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Transformers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Saedi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Jobs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="african" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Tag&#9;FILE&#9;file:///home/ramesh/mysites/african/app/TagSubscription.php&#10;post_&#9;FILE&#9;file:///home/ramesh/mysites/african/database/migrations/2016_05_11_093007_create_post_subscription_table.php&#10;Tagsu&#9;FILE&#9;file:///home/ramesh/mysites/african/app/TagSubscription.php&#10;rou&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/routes.php&#10;Tags&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/TagsSubscriptionController.php&#10;r&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/routes.php&#10;rout&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/routes.php&#10;tags/ind&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/tags/index.blade.php&#10;posts/ind&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/index.blade.php&#10;tag/index&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/tags/index.blade.php&#10;posts/show&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/show.blade.php&#10;route&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/routes.php&#10;us&#9;FILE&#9;file:///home/ramesh/mysites/african/app/User.php&#10;posts_&#9;FILE&#9;file:///home/ramesh/mysites/african/database/migrations/2016_05_11_093007_create_post_subscription_table.php&#10;UserTableseed&#9;FILE&#9;file:///home/ramesh/mysites/african/database/seeds/UsersTableSeeder.php&#10;taggin&#9;FILE&#9;file:///home/ramesh/mysites/african/app/TaggingTagged.php&#10;User.php&#9;FILE&#9;file:///home/ramesh/mysites/african/app/User.php&#10;tag_&#9;FILE&#9;file:///home/ramesh/mysites/african/database/migrations/2016_05_04_072547_create_user_tags_table&#10;tags&#9;FILE&#9;file:///home/ramesh/mysites/african/database/migrations/2016_05_04_072547_create_user_tags_table&#10;post_sub&#9;FILE&#9;file:///home/ramesh/mysites/african/database/migrations/2016_05_11_093007_create_post_subscription_table.php&#10;user&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/vendor/watchtower/role/user.blade.php&#10;posts/in&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/index.blade.php&#10;posts/sho&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/show.blade.php&#10;posts/creat&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/create.blade.php&#10;cre&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/create.blade.php&#10;posts/tags&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/tags.blade.php&#10;post/in&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/index.blade.php&#10;posts/script&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/script.blade.php&#10;posts/index&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/index.blade.php&#10;post&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/PostsController.php&#10;taggi&#9;FILE&#9;file:///home/ramesh/mysites/african/app/TaggingTagged.php&#10;taggingtagg&#9;null&#9;null&#10;posts&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/PostsController.php&#10;config/ta&#9;FILE&#9;file:///home/ramesh/mysites/african/config/tagging.php&#10;conf/ta&#9;FILE&#9;file:///home/ramesh/mysites/african/config/tagging.php&#10;ro&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/routes.php&#10;PostsC&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/PostsController.php&#10;master&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/vendor/watchtower/layouts/master.blade.php&#10;composer.js&#9;FILE&#9;file:///home/ramesh/mysites/african/composer.json&#10;posts/cr&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/create.blade.php&#10;upload/in&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/uploads/index.blade.php&#10;post/ind&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/index.blade.php&#10;postscont&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/PostsController.php&#10;pos&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/PostsController.php&#10;post_ta&#9;FILE&#9;file:///home/ramesh/mysites/african/database/migrations/2016_05_06_084223_create_posts_table.php&#10;postC&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/PostsController.php&#10;posts/_fo&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/_form.blade.php&#10;up&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/UploadsController.php&#10;uploads/ind&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/uploads/index.blade.php&#10;uploads_&#9;FILE&#9;file:///home/ramesh/mysites/african/database/migrations/2016_04_27_063228_create_uploads_table.php" />
+    <property name="SearchEverywhereHistoryKey" value="userReg&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/UserRegistrationController.php&#10;lo&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/LocaleController.php&#10;pos&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/PostsController.php&#10;postt&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Saedi/Transformers/PostTransformer.php&#10;posts&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/PostsController.php&#10;post&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/PostsController.php&#10;trans&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Saedi/Transformers/Transformer.php&#10;transformer&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Saedi/Transformers/Transformer.php&#10;PostT&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Saedi/Transformers/PostTransformer.php&#10;user&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/UserController.php&#10;UserR&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/UserRegistrationController.php&#10;rout&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/routes.php&#10;kerne&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Kernel.php&#10;route&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/routes.php&#10;cors&#9;FILE&#9;file:///home/ramesh/mysites/african/config/cors.php&#10;.htac&#9;FILE&#9;file:///home/ramesh/mysites/african/public/.htaccess&#10;locale&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/LocaleController.php&#10;tr&#9;FILE&#9;file:///home/ramesh/mysites/african/config/translation.php&#10;loca&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/LocaleController.php&#10;posts/ind&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/posts/index.blade.php&#10;app.php&#9;FILE&#9;file:///home/ramesh/mysites/african/config/app.php&#10;userRe&#9;null&#9;null&#10;profi&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/ProfilesController.php&#10;routes&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/routes.php&#10;wa&#9;FILE&#9;file:///home/ramesh/mysites/african/vendor/smarch/watchtower/src/Config/watchtower.php&#10;config/wat&#9;FILE&#9;file:///home/ramesh/mysites/african/config/watchtower-menu.php&#10;watchtower&#9;FILE&#9;file:///home/ramesh/mysites/african/vendor/smarch/watchtower/src/Config/watchtower.php&#10;watch&#9;FILE&#9;file:///home/ramesh/mysites/african/config/watchtower-menu.php&#10;watchto&#9;FILE&#9;file:///home/ramesh/mysites/african/config/watchtower.php&#10;tags/ind&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/tags/index.blade.php&#10;tags&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/TagsSubscriptionController.php&#10;postcont&#9;null&#9;null&#10;usertag&#9;FILE&#9;file:///home/ramesh/mysites/african/app/UserTag.php&#10;tag/ind&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/tags/index.blade.php&#10;tags/index&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/tags/index.blade.php&#10;tagsubsc&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/TagsSubscriptionController.php&#10;userta&#9;FILE&#9;file:///home/ramesh/mysites/african/app/UserTag.php&#10;tag&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/TagsSubscriptionController.php&#10;tagging&#9;FILE&#9;file:///home/ramesh/mysites/african/app/TaggingTagged.php&#10;postcontroller&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/PostsController.php&#10;routes.php&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/routes.php&#10;Userc&#9;FILE&#9;file:///home/ramesh/mysites/african/public/app/controllers/UserController.js&#10;inde&#9;FILE&#9;file:///home/ramesh/mysites/african/resources/views/tags/index.blade.php&#10;r&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/routes.php&#10;TagSubscriptionController&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/TagsSubscriptionController.php&#10;p&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/TagsSubscriptionController.php&#10;subsc&#9;FILE&#9;file:///home/ramesh/mysites/african/database/migrations/2016_05_11_093007_create_post_subscription_table.php&#10;tagsu&#9;FILE&#9;file:///home/ramesh/mysites/african/app/Http/Controllers/TagsSubscriptionController.php&#10;UserTag&#9;null&#9;null&#10;composre&#9;null&#9;null" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/v0.10.40/bin/node" />
   </component>
   <component name="RecentsManager">
@@ -344,18 +551,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="170" y="145" width="1026" height="558" extended-state="1" />
-    <editor active="false" />
+    <frame x="0" y="924" width="1440" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28849903" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21666667" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31214952" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23162274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -383,232 +590,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/UserController.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Saedi/Transformers/PostTransformer.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/seeds/PostsSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.633864">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5600579">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_04_27_063213_create_business_profiles_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5007236">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_04_27_063156_create_personal_profiles_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52098405">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="38" />
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="35" />
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="37" />
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="29" />
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/ProfilesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33282906">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5643994">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserRegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16353111">
-          <caret line="161" column="31" selection-start-line="161" selection-start-column="31" selection-end-line="161" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UploadsTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78147614">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/watchtower/role/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1259046">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/watchtower/user/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/uploads/_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34732273">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/uploads/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26049203">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4341534">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_04_27_063228_create_uploads_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7380608">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UploadsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44283646">
-          <caret line="63" column="45" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/uploads/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2170767">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52098405">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_06_084223_create_posts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9117221">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/watchtower/partials/flash.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3039074">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/uploads/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52098405">
-          <caret line="12" column="14" selection-start-line="5" selection-start-column="7" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52098405">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/watchtower/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36324167">
-          <caret line="152" column="71" selection-start-line="152" selection-start-column="67" selection-end-line="152" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39073807">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/tagging.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90448624">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34732273">
-          <caret line="690" column="27" selection-start-line="690" selection-start-column="27" selection-end-line="690" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/script.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13024601">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/tags.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21852387">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08683068">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/watchtower/role/user.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8234442">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_01_07_073615_create_tagged_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_04_072547_create_user_tags_table">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7083333">
@@ -630,24 +628,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/TaggingTagged.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3039074">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52243125">
           <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44428363">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -658,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/posts/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34732273">
@@ -672,80 +649,564 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_11_093007_create_post_subscription_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.13748191">
-          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.82633865">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tags/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/TagSubscription.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39073807">
-          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.34732273">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
+    <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9131693">
-          <caret line="134" column="18" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
+        <state vertical-scroll-proportion="-0.25904486">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/public/app/controllers/UserController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52098405">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
+    <entry file="file://$PROJECT_DIR$/app/Saedi/Transformers/UserTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/TaggingTagged.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3039074">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1462867426764" expanded="true" signature="97:140" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/session.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/watchtower.php">
+    <entry file="file://$PROJECT_DIR$/app/Saedi/Transformers/UploadTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5658466">
-          <caret line="259" column="24" selection-start-line="259" selection-start-column="24" selection-end-line="259" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/watchtower-menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1244574">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/smarch/watchtower/src/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/Saedi/Transformers/TagSubscriptionTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.17366137">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.38961038">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UserTag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40601504">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <marker date="1464815547754" expanded="true" signature="91:361" placeholder="{...}" />
+            <marker date="1464815547754" expanded="true" signature="224:280" placeholder="{...}" />
+            <marker date="1464815547754" expanded="true" signature="305:359" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TagsSubscriptionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5643994">
-          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.46753246">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
+            <marker date="1464816208701" expanded="true" signature="44:182" placeholder="..." />
+            <marker date="1464816208701" expanded="true" signature="236:2216" placeholder="{...}" />
+            <marker date="1464816208701" expanded="true" signature="266:362" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1464816208701" expanded="true" signature="392:503" placeholder="{...}" />
+            <marker date="1464816208701" expanded="true" signature="512:616" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1464816208701" expanded="true" signature="647:753" placeholder="{...}" />
+            <marker date="1464816208701" expanded="true" signature="761:914" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1464816208701" expanded="true" signature="960:999" placeholder="{...}" />
+            <marker date="1464816208701" expanded="true" signature="1008:1124" placeholder=" Display the specified resource. ..." />
+            <marker date="1464816208701" expanded="true" signature="1156:1191" placeholder="{...}" />
+            <marker date="1464816208701" expanded="true" signature="1200:1334" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1464816208701" expanded="true" signature="1366:1405" placeholder="{...}" />
+            <marker date="1464816208701" expanded="true" signature="1414:1589" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1464816208701" expanded="true" signature="1641:1683" placeholder="{...}" />
+            <marker date="1464816208701" expanded="true" signature="1692:1820" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1464816208701" expanded="true" signature="1855:1896" placeholder="{...}" />
+            <marker date="1464816208701" expanded="true" signature="1945:2214" placeholder="{...}" />
+            <marker date="1464816208701" expanded="true" signature="1982:2178" placeholder="..." />
+            <marker date="1464816208701" expanded="true" signature="2011:2125" placeholder="..." />
+            <marker date="1464816208701" expanded="true" signature="2012:2124" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_11_093007_create_post_subscription_table.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/tags/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21418235">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.58441556">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/TagSubscription.php">
+    <entry file="file://$PROJECT_DIR$/app/Saedi/Transformers/TagsTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79881656">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.48721805">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/watchtower.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85858583">
+          <caret line="263" column="2" selection-start-line="263" selection-start-column="2" selection-end-line="263" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/watchtower/watchtower/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/watchtower-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/smarch/watchtower/src/Config/watchtower.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95475113">
+          <caret line="251" column="2" selection-start-line="251" selection-start-column="2" selection-end-line="251" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/jwt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4545455">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tags/subscribe.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27272728">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42857143">
+          <caret line="11" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459926745946" expanded="false" signature="44:311" placeholder="..." />
+            <marker date="1459926745946" expanded="true" signature="352:440" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserVerifyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53246754">
+          <caret line="228" column="64" selection-start-line="228" selection-start-column="64" selection-end-line="228" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/stevebauman/translation/src/Facades/Translation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23376623">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <marker date="1456582390000" expanded="true" signature="123:332" placeholder="{...}" />
+            <marker date="1456582390000" expanded="true" signature="133:236" placeholder=" The facade accessor for retrieving translation from the IoC. ..." />
+            <marker date="1456582390000" expanded="true" signature="288:330" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23376623">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1464630121000" expanded="false" signature="50:107" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="130:5477" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="140:257" placeholder=" The application instance being facaded. ..." />
+            <marker date="1464630121000" expanded="true" signature="295:364" placeholder=" The resolved object instances. ..." />
+            <marker date="1464630121000" expanded="true" signature="415:538" placeholder=" Hotswap the underlying instance behind the facade. ..." />
+            <marker date="1464630121000" expanded="true" signature="583:744" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="753:873" placeholder=" Initiate a mock expectation on the facade. ..." />
+            <marker date="1464630121000" expanded="true" signature="918:1230" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="1002:1065" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="1073:1142" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="1239:1374" placeholder=" Create a fresh mock instance for the given class. ..." />
+            <marker date="1464630121000" expanded="true" signature="1437:1706" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="1617:1676" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="1715:1850" placeholder=" Create a fresh mock instance for the given class. ..." />
+            <marker date="1464630121000" expanded="true" signature="1906:2034" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="2043:2147" placeholder=" Determines whether a mock is set as the instance of the facade. ..." />
+            <marker date="1464630121000" expanded="true" signature="2188:2363" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="2372:2466" placeholder=" Get the mockable class for the bound instance. ..." />
+            <marker date="1464630121000" expanded="true" signature="2517:2623" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="2570:2616" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="2632:2712" placeholder=" Get the root object behind the facade. ..." />
+            <marker date="1464630121000" expanded="true" signature="2757:2844" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="2853:2977" placeholder=" Get the registered name of the component. ..." />
+            <marker date="1464630121000" expanded="true" signature="3029:3132" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="3141:3271" placeholder=" Resolve the facade root instance from the container. ..." />
+            <marker date="1464630121000" expanded="true" signature="3332:3603" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="3370:3405" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="3462:3524" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="3612:3715" placeholder=" Clear a resolved facade instance. ..." />
+            <marker date="1464630121000" expanded="true" signature="3773:3834" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="3843:3920" placeholder=" Clear all of the resolved instances. ..." />
+            <marker date="1464630121000" expanded="true" signature="3974:4026" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="4035:4163" placeholder=" Get the application instance behind the facade. ..." />
+            <marker date="1464630121000" expanded="true" signature="4215:4256" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="4265:4401" placeholder=" Set the application instance. ..." />
+            <marker date="1464630121000" expanded="true" signature="4457:4498" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="4507:4692" placeholder=" Handle dynamic, static calls to the object. ..." />
+            <marker date="1464630121000" expanded="true" signature="4750:5475" placeholder="{...}" />
+            <marker date="1464630121000" expanded="true" signature="4829:4913" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="4947:5468" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="4967:5012" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="5032:5085" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="5105:5168" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="5188:5261" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="5281:5364" placeholder="..." />
+            <marker date="1464630121000" expanded="true" signature="5385:5459" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42857143">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/stevebauman/translation/src/Middleware/LocaleMiddleware.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/translation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4935065">
+          <caret line="119" column="12" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.225">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64935064">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84126985">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/smarch/watchtower/src/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.961039">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64935064">
+          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <marker date="1464332609829" expanded="false" signature="44:149" placeholder="..." />
+            <marker date="1464332609829" expanded="true" signature="193:1009" placeholder="{...}" />
+            <marker date="1464332609829" expanded="true" signature="200:247" placeholder=" @var Saedi\Transformers\UserTransformer ..." />
+            <marker date="1464332609829" expanded="true" signature="284:363" placeholder=" UserController constructor. ..." />
+            <marker date="1464332609829" expanded="true" signature="428:479" placeholder="{...}" />
+            <marker date="1464332609829" expanded="true" signature="505:701" placeholder="{...}" />
+            <marker date="1464332609829" expanded="true" signature="566:693" placeholder="..." />
+            <marker date="1464332609829" expanded="true" signature="567:692" placeholder="..." />
+            <marker date="1464332609829" expanded="true" signature="728:972" placeholder="{...}" />
+            <marker date="1464332609829" expanded="true" signature="775:840" placeholder="{...}" />
+            <marker date="1464332609829" expanded="true" signature="865:967" placeholder="..." />
+            <marker date="1464332609829" expanded="true" signature="866:966" placeholder="..." />
+            <marker date="1464332609829" expanded="true" signature="998:1005" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.16">
+          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+          <folding>
+            <marker date="1461735476037" expanded="true" signature="135:1348" placeholder="{...}" />
+            <marker date="1461735476037" expanded="true" signature="142:158" placeholder=" @var int ..." />
+            <marker date="1461735476037" expanded="true" signature="196:217" placeholder=" @return mixed ..." />
+            <marker date="1461735476037" expanded="true" signature="252:286" placeholder="{...}" />
+            <marker date="1461735476037" expanded="true" signature="292:342" placeholder=" @param mixed $statusCode ..." />
+            <marker date="1461735476037" expanded="true" signature="388:445" placeholder="{...}" />
+            <marker date="1461735476037" expanded="true" signature="451:526" placeholder=" @param string $message ..." />
+            <marker date="1461735476037" expanded="true" signature="585:655" placeholder="{...}" />
+            <marker date="1461735476037" expanded="true" signature="661:736" placeholder=" @param string $message ..." />
+            <marker date="1461735476037" expanded="true" signature="805:875" placeholder="{...}" />
+            <marker date="1461735476037" expanded="true" signature="880:971" placeholder=" @param $data ..." />
+            <marker date="1461735476037" expanded="true" signature="1020:1096" placeholder="{...}" />
+            <marker date="1461735476037" expanded="true" signature="1102:1170" placeholder=" @param $message ..." />
+            <marker date="1461735476037" expanded="true" signature="1216:1346" placeholder="{...}" />
+            <marker date="1461735476037" expanded="true" signature="1244:1341" placeholder="..." />
+            <marker date="1461735476037" expanded="true" signature="1245:1340" placeholder="..." />
+            <marker date="1461735476037" expanded="true" signature="1261:1336" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Saedi/Transformers/Transformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3927273">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <marker date="1461647169228" expanded="true" signature="69:263" placeholder="{...}" />
+            <marker date="1461647169228" expanded="true" signature="78:106" placeholder=" Transform a collection ..." />
+            <marker date="1461647169228" expanded="true" signature="159:216" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42545456">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <folding>
+            <marker date="1465291039559" expanded="true" signature="44:306" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="352:5660" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="362:420" placeholder=" @var App\Saedi\Transformers\PostsTransformer ..." />
+            <marker date="1465291039559" expanded="true" signature="462:526" placeholder=" @var Stevebauman\Translation\Contracts\Translation ..." />
+            <marker date="1465291039559" expanded="true" signature="564:612" placeholder=" @var session()-&gt;get('locale','en') ..." />
+            <marker date="1465291039559" expanded="true" signature="730:987" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="996:1092" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1465291039559" expanded="true" signature="1122:1527" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="1268:1455" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="1269:1454" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="1536:1640" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1465291039559" expanded="true" signature="1671:1784" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="1793:1947" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1465291039559" expanded="true" signature="1993:2351" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="2030:2181" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="2031:2180" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="2360:2477" placeholder=" Display the specified resource. ..." />
+            <marker date="1465291039559" expanded="true" signature="2509:2997" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="2676:2762" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="2793:2919" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="2794:2918" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="3006:3141" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1465291039559" expanded="true" signature="3173:3335" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="3344:3521" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1465291039559" expanded="true" signature="3573:3846" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="3620:3771" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="3621:3770" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="3855:3984" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1465291039559" expanded="true" signature="4019:4066" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="4076:4192" placeholder=" @param Request $request ..." />
+            <marker date="1465291039559" expanded="true" signature="4241:4564" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="4348:4473" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="4480:4557" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="4596:4768" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="4711:4761" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="4796:5657" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="4924:5023" placeholder="..." />
+            <marker date="1465291039559" expanded="true" signature="5305:5651" placeholder="{...}" />
+            <marker date="1465291039559" expanded="true" signature="5346:5444" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LocaleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32245922">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <marker date="1465291421863" expanded="false" signature="44:191" placeholder="..." />
+            <marker date="1465291421863" expanded="true" signature="196:257" placeholder=" Class LocaleController ..." />
+            <marker date="1465291421863" expanded="true" signature="301:1197" placeholder="{...}" />
+            <marker date="1465291421863" expanded="true" signature="309:374" placeholder=" @param $lang ..." />
+            <marker date="1465291421863" expanded="true" signature="415:774" placeholder="{...}" />
+            <marker date="1465291421863" expanded="true" signature="595:733" placeholder="..." />
+            <marker date="1465291421863" expanded="true" signature="780:849" placeholder=" @param $lang ..." />
+            <marker date="1465291421863" expanded="true" signature="893:1094" placeholder="{...}" />
+            <marker date="1465291421863" expanded="true" signature="1100:1110" placeholder=" ..." />
+            <marker date="1465291421863" expanded="true" signature="1139:1194" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Saedi/Transformers/PostTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.11272727">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <marker date="1465293374463" expanded="true" signature="59:121" placeholder=" Class PostTransformer ..." />
+            <marker date="1465293374463" expanded="true" signature="165:773" placeholder="{...}" />
+            <marker date="1465293374463" expanded="true" signature="173:212" placeholder=" @param $id ..." />
+            <marker date="1465293374463" expanded="true" signature="246:323" placeholder="..." />
+            <marker date="1465293374463" expanded="true" signature="330:371" placeholder=" @param $post ..." />
+            <marker date="1465293374463" expanded="true" signature="404:514" placeholder="{...}" />
+            <marker date="1465293374463" expanded="true" signature="459:494" placeholder="..." />
+            <marker date="1465293374463" expanded="true" signature="520:567" placeholder=" @param $post ..." />
+            <marker date="1465293374463" expanded="true" signature="604:771" placeholder="{...}" />
+            <marker date="1465293374463" expanded="true" signature="618:766" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13090909">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <marker date="1465118125994" expanded="false" signature="44:185" placeholder="..." />
+            <marker date="1465118125994" expanded="true" signature="230:1710" placeholder="{...}" />
+            <marker date="1465118125994" expanded="true" signature="265:958" placeholder="{...}" />
+            <marker date="1465118125994" expanded="true" signature="397:453" placeholder="{...}" />
+            <marker date="1465118125994" expanded="true" signature="662:721" placeholder="{...}" />
+            <marker date="1465118125994" expanded="true" signature="762:854" placeholder="..." />
+            <marker date="1465118125994" expanded="true" signature="991:1708" placeholder="{...}" />
+            <marker date="1465118125994" expanded="true" signature="1088:1229" placeholder="{...}" />
+            <marker date="1465118125994" expanded="true" signature="1177:1213" placeholder="..." />
+            <marker date="1465118125994" expanded="true" signature="1510:1603" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthenticateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29454544">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1465293977573" expanded="true" signature="43:160" placeholder="..." />
+            <marker date="1465293977573" expanded="true" signature="166:233" placeholder=" Class AuthenticateController ..." />
+            <marker date="1465293977573" expanded="true" signature="283:1668" placeholder="{...}" />
+            <marker date="1465293977573" expanded="true" signature="293:342" placeholder=" AuthenticateController constructor. ..." />
+            <marker date="1465293977573" expanded="true" signature="378:686" placeholder="{...}" />
+            <marker date="1465293977573" expanded="true" signature="695:766" placeholder=" @return \Illuminate\Database\Eloquent\Collection|static[] ..." />
+            <marker date="1465293977573" expanded="true" signature="796:935" placeholder="{...}" />
+            <marker date="1465293977573" expanded="true" signature="944:1026" placeholder=" @param Request $request ..." />
+            <marker date="1465293977573" expanded="true" signature="1079:1666" placeholder="{...}" />
+            <marker date="1465293977573" expanded="true" signature="1159:1395" placeholder="..." />
+            <marker date="1465293977573" expanded="true" signature="1290:1385" placeholder="..." />
+            <marker date="1465293977573" expanded="true" signature="1422:1548" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PermissionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3745455">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1460023028688" expanded="false" signature="44:111" placeholder="..." />
+            <marker date="1460023028688" expanded="true" signature="158:2612" placeholder="{...}" />
+            <marker date="1460023028688" expanded="true" signature="168:264" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1460023028688" expanded="true" signature="316:428" placeholder="{...}" />
+            <marker date="1460023028688" expanded="true" signature="437:541" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1460023028688" expanded="true" signature="572:627" placeholder="{...}" />
+            <marker date="1460023028688" expanded="true" signature="636:790" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1460023028688" expanded="true" signature="860:1127" placeholder="{...}" />
+            <marker date="1460023028688" expanded="true" signature="894:1121" placeholder="{...}" />
+            <marker date="1460023028688" expanded="true" signature="1136:1253" placeholder=" Display the specified resource. ..." />
+            <marker date="1460023028688" expanded="true" signature="1309:1413" placeholder="{...}" />
+            <marker date="1460023028688" expanded="true" signature="1422:1557" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1460023028688" expanded="true" signature="1613:1717" placeholder="{...}" />
+            <marker date="1460023028688" expanded="true" signature="1726:1903" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1460023028688" expanded="true" signature="1979:2312" placeholder="{...}" />
+            <marker date="1460023028688" expanded="true" signature="2051:2278" placeholder="{...}" />
+            <marker date="1460023028688" expanded="true" signature="2321:2450" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1460023028688" expanded="true" signature="2509:2610" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42545456">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <marker date="1459929711148" expanded="false" signature="44:91" placeholder="..." />
+            <marker date="1459929711148" expanded="true" signature="132:474" placeholder="{...}" />
+            <marker date="1459929711148" expanded="true" signature="142:216" placeholder=" Create a new controller instance. ..." />
+            <marker date="1459929711148" expanded="true" signature="252:299" placeholder="{...}" />
+            <marker date="1459929711148" expanded="true" signature="308:401" placeholder=" Show the application dashboard. ..." />
+            <marker date="1459929711148" expanded="true" signature="431:472" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserRegistrationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19636364">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding />
         </state>
       </provider>

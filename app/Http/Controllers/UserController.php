@@ -35,7 +35,7 @@ class UserController extends ApiController
 	{
 		$user = User::find($id);
 
-		if(! $user)
+		if( ! $user )
 		{
 			return $this->respondNotFound('User Does not exist');
 		}

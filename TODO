@@ -2,3 +2,9 @@ TODO
 - Adding tags for business
 - Subscrbing to the tags
 - Post to tags
+_____________________________________
+Translation middleware has been added 
+for now only the french and english language are supported
+
+check out the following link
+https://learninglaravel.net/detect-and-change-language-on-the-fly-with-laravel/link

@@ -11,9 +11,6 @@ use Illuminate\Support\Facades\Auth;
 
 class ProfilesController extends Controller
 {
-    /**
-     * @param $id
-     */
     public function index($slug)
     {
         $businessProfile = null;

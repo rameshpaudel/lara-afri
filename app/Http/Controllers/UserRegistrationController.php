@@ -23,10 +23,9 @@ class UserRegistrationController extends Controller
     public function registerPersonalAccount(Request $request)
     {
         if($request->all()){
-            if($request->get('password') != $request->get('re_password'))
+            if($request->get('password') != $request->get('rePassword'))
             {
-                session()->flash('errMsg', 'Password and Confirmation password incorrect');
-                return back()->withInput();
+                return response()->json(['message' => 'Both Passwords Should Be the same']);
             }
             $validator = Validator::make($request->all(),[
                 'username' => 'required|unique:users|min:4|max:255',
@@ -40,9 +39,7 @@ class UserRegistrationController extends Controller
             ]);
             if($validator->fails())
             {
-                return back()
-                    ->withErrors($validator)
-                    ->withInput();
+                return response()->json($validator->messages()->all(),200);
             }
 
 
@@ -67,7 +64,7 @@ class UserRegistrationController extends Controller
                 //$user->attachRole($attach);
 
 
-                $dob =new DateTime($request->get('dob'));
+                $dob = new DateTime($request->get('dob'));
                 /*Inserting in personal profile table*/
                 $personalProfile = new PersonalProfile;
                 $personalProfile->first_name = $request->get('first_name');
@@ -84,7 +81,14 @@ class UserRegistrationController extends Controller
                 $upload->save();*/
 
             Auth::loginUsingId($user->id);
-            return redirect('profile')->with('sucMsg','User successfully created');
+            /*return redirect('profile')->with('sucMsg','User successfully created');*/
+            $data = [
+
+                'status' => 200,
+                'message' => 'Personal User succesfully added',
+                'route' => '/profile',
+            ];
+            return response()->json($data);
         }
     }
 
@@ -96,9 +100,9 @@ class UserRegistrationController extends Controller
     {
         if ($request->all()) {
             if ($request->get('password') != $request->get('re_password')) {
-                session()->flash('errMsg', 'Password and Confirmation password incorrect');
-                return back()->withInput();
+                return response()->json(['message' => 'Both Passwords Should Be the same']);
             }
+             
             $validator = Validator::make($request->all(), [
                 'username' => 'required|unique:users|min:4|max:255',
                 'email' => 'required|unique:users|email',
@@ -114,11 +118,9 @@ class UserRegistrationController extends Controller
                 'established_on' => 'required|min:2|max:150',
                 'certificate' => 'image| mimes:jpeg,png,bmp,gif,svg'
             ]);
-            if ($validator->fails()) {
 
-                return back()
-                    ->withErrors($validator)
-                    ->withInput();
+            if ($validator->fails()) {
+               return response()->json($validator->messages()->all() ,200);
             }
 
             $role = new Role();
@@ -147,7 +149,8 @@ class UserRegistrationController extends Controller
             $personalProfile->user_id = $user->id;
             $personalProfile->save();
 
-        $established_on = new DateTime($request->get('established_on'));
+            $established_on = new DateTime($request->get('established_on'));
+            /*Business Profile*/
             $businessProfile = new BusinessProfile;
             $businessProfile->company_name = $request->get('company_name');
             $businessProfile->user_type = $request->get('user_type');
@@ -169,8 +172,15 @@ class UserRegistrationController extends Controller
 
             Auth::loginUsingId($user->id);
             
-            return redirect('profile')->with('sucMsg', 'User created successfully');
+            //return redirect('profile')->with('sucMsg', 'User created successfully');
 
+            $data = [
+
+                'status' => 200,
+                'message' => 'Personal User succesfully added',
+                'route' => '/profile',
+            ];
+            return response()->json($data);
         }
     }
 }

@@ -7,7 +7,10 @@
 
     @foreach($posts as $tags)
         @foreach($tags->tags as $tag)
-            <a href="{{ action('TagSubscriptionController@subscribe',$tag->id) }}"></a><span class="badge">{{$tag->name}}</span>
+            {!! Form::open( [ 'action' => 'TagsSubscriptionController@subscribe' ,'method' => 'POST'] ) !!}
+                {!! Form::hidden('tag_id',$tag->id)  !!}
+                <button type="submit"><span class="badge">{{$tag->name}}</span></button>
+            {!! Form::close() !!}
         @endforeach
     @endforeach
 @stop

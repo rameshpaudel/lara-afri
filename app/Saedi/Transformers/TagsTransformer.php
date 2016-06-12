@@ -10,7 +10,6 @@ class TagsTransformer extends Transformer
 	{
 		return [
 			'name' => $tag['name'],
-			
 			];
 	}
 

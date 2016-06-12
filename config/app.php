@@ -163,6 +163,13 @@ return [
 
         /*Tagging System*/
          \Conner\Tagging\Providers\TaggingServiceProvider::class,
+         /*For REST Client*/
+        \Barryvdh\Cors\ServiceProvider::class,
+
+        \Stevebauman\Translation\TranslationServiceProvider::class,
+
+        Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+
 
 
     ],
@@ -213,12 +220,16 @@ return [
         /*Laravel HTML helpers*/
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-            /*For processing Inputs*/
+        /*For processing Inputs*/
         'Input' => Illuminate\Support\Facades\Input::class,
-        /*Entrust*/
-        
+        /*Shinobi*/
         'Shinobi' => Caffeinated\Shinobi\Facades\Shinobi::class,
         'Watchtower'=> Smarch\Watchtower\WatchtowerFacade::class, // not required, but availables
+
+        'Translation' => Stevebauman\Translation\Facades\Translation::class,
+        /*JWT TOKEN BASED AUTHENTICATION*/
+        'JWTAuth'   => Tymon\JWTAuthFacades\JWTAuth::class,
+        'JWTFactory' => Tymon\JWTAuthFacades\JWTFactory::class
 
     ],
 
