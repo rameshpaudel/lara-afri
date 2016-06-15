@@ -4,7 +4,7 @@
     <h1>Posts
         <div class="btn-group pull-right" role="group" aria-label="...">
 
-            <a href="{{ route('watchtower.posts.create') }}">
+            <a href="{{ route('dash.posts.create') }}">
                 <button type="button" class="btn btn-info">
                     <i class="fa fa-plus fa-fw"></i>
                     <span class="hidden-xs hidden-sm">Add New Post</span>

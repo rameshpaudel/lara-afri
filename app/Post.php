@@ -10,4 +10,10 @@ class Post extends Model
     
     protected $table = 'posts';
     protected $fillable = ['title','content','user_id'];
+
+    public function owner()
+    {
+    	return $this->belongsTo('App\User','user_id');
+    }
+    
 }

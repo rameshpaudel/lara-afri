@@ -18,6 +18,7 @@ class Kernel extends HttpKernel {
 	];
 
 	/**
+	 *
 	 * The application's route middleware groups.
 	 *
 	 * @var array
@@ -57,6 +58,5 @@ class Kernel extends HttpKernel {
 		'jwt.auth' => Tymon\JWTAuth\MiddlewareGetUserFromToken::class,
         'jwt.refresh' => TymonJWTAuth\MiddlewareRefreshToken::class,
 
-		'redirectWithRole' => \App\Http\Middleware\RoleMiddleware::class,
 	];
 }

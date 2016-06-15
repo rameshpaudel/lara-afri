@@ -12,4 +12,9 @@ class Tag extends Model
     {
     	return $this->hasMany('App\UserTags', 'tag_id');
     }
+
+    public function posts()
+    {
+    	return $this->hasMany('App\Posts', 'tag_id');
+    }
 }

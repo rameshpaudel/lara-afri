@@ -169,6 +169,9 @@ return [
         \Stevebauman\Translation\TranslationServiceProvider::class,
 
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
+        /*Debugbar*/
+        Barryvdh\Debugbar\ServiceProvider::class,
+
 
 
 

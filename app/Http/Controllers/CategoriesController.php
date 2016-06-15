@@ -2,24 +2,21 @@
 
 namespace App\Http\Controllers;
 
-use App\Upload;
+use App\Category;
+use App\Http\Requests;
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
-use Illuminate\Support\Facades\Auth;
-
-class UploadsController extends Controller
+class CategoriesController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Upload $upload)
+    public function index()
     {
-        $uploads = $upload->with('users')->get();
-
-        return view('uploads.index',compact('uploads'));
+        $categories = Category::all();
+        
     }
 
     /**
@@ -29,7 +26,7 @@ class UploadsController extends Controller
      */
     public function create()
     {
-        return view('uploads.create');
+        //
     }
 
     /**
@@ -40,18 +37,7 @@ class UploadsController extends Controller
      */
     public function store(Request $request)
     {
-        if($request->all())
-        {
-            $image = $request->file('certificate');
-            $destinationPath = base_path() . '/public/uploads/images/certificates/';
-            $image->move($destinationPath, $image->getClientOriginalName());
-
-            $upload =new Upload();
-                $upload->file_name = $image->getClientOriginalName();
-                $upload->user_id = Auth::user()->id;
-            $upload->save();
-
-        }
+        //
     }
 
     /**
@@ -62,8 +48,7 @@ class UploadsController extends Controller
      */
     public function show($id)
     {
-        $upload = Upload::find($id)->with('owner')->first();
-        return view('uploads.show');
+        //
     }
 
     /**

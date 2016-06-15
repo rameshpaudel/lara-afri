@@ -45,7 +45,7 @@ class PostsController extends ApiController
     public function index()
     {
         $lang =  $this->locale;
-        $posts = Post::orderBy('updated_at', 'DESC')->with('tagged')->get();
+        $posts = Post::with('tagged','owner')->orderBy('updated_at', 'DESC')->get();
         return $this->respond([
             'data' => $this->postTransformer->transformCollection($posts->toArray()),
             'meta-data' => (boolean) rand(0,1),
@@ -99,9 +99,8 @@ class PostsController extends ApiController
     public function show($id)
     {
         $lang =  $this->locale;
-        $post = Post::where("id","=",$id)->first();
-        $posts = Post::with('tagged')->get();
-        
+        $post = Post::where("id","=",$id)->with('tagged')->first();
+              
         if( ! $post )
         {
             return $this->respondNotFound('Post Does not exist');

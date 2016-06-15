@@ -3,16 +3,23 @@
 namespace App\Http\Controllers;
 
 use App\Post;
+use App\Tag;
 use App\Http\Requests;
 use App\TaggingTagged;
 use App\UserTag;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Saedi\Transformers\TagsTransformer;
 
 
-class TagsSubscriptionController extends Controller
+class TagsSubscriptionController extends ApiController
 {
-    protected $tag;
+    protected $tagTransformer;
+    
+    public function __construct(TagsTransformer $tagsTransformer)
+    {
+       $this->tagTransformer = $tagsTransformer; 
+    }
     /**
      * Display a listing of the resource.
      *
@@ -20,8 +27,13 @@ class TagsSubscriptionController extends Controller
      */
     public function index()
     {
-        $posts = Post::with('tagged')->get();
-        return view('tags.index', compact('posts'));
+        //$posts = Post::with('tagged')->get();
+        $tags = TaggingTagged::all();
+        return $this->respond([
+            'data' => $this->tagTransformer->transformCollection($tags->toArray()),
+            'meta-data' => (boolean) rand(0,1)
+        ]);
+        //return view('tags.index', compact('posts'));
     }
 
     /**

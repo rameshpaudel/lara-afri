@@ -38,6 +38,10 @@ class User extends Authenticatable
     {
         return $this->hasMany('App\TagSubscription','user_tag','user_id','tag_id');
     }
+    public function posts()
+    {
+        return $this->hasMany('App\Posts');
+    }
 
 
     public function metaData()

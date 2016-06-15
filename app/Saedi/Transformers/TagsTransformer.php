@@ -9,7 +9,8 @@ class TagsTransformer extends Transformer
 	public function transform($tag)
 	{
 		return [
-			'name' => $tag['name'],
+			'name' => $tag['tag_name'],
+			'slug' => $tag['tag_slug']
 			];
 	}
 

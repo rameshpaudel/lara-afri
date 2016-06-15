@@ -10,7 +10,7 @@ class CarouselTransformer extends Transformers
 	{
 		return [
 			'id' => $carousel['id'],
-			'image' => $carousel['image'],
+			'image' => ''$carousel['image'],
 			'content' => $carousel['text'],
 			'user' => $this->username()
 		];

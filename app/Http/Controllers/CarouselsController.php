@@ -6,7 +6,7 @@ use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Saedi\Transformers\CarouselTransformer;
 
-class CarouselController extends ApiController
+class CarouselsController extends ApiController
 {
 	/**
 	 * @var Saedi\Transformers\UserTransformer

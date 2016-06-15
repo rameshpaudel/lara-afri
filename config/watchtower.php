@@ -177,33 +177,34 @@ return [
    'dashboard' => [
         'users' => [
             'name'  => "Users",            
-            'route' => 'watchtower.user.index',
+            'route' => 'dash.user.index',
+            
             'icon'  => 'fa fa-user fa-5x',
             'colour'=> 'primary'
         ],
 
         'roles' => [
             'name'  => "Roles",
-            'route' => 'watchtower.role.index',
+            'route' => 'dash.role.index',
             'icon'  => 'fa fa-users fa-5x',
             'colour'=> 'info'
         ],
 
         'permissions' => [
             'name'  => "Permissions",
-            'route' => 'watchtower.permission.index',
+            'route' => 'dash.permission.index',
             'icon'  => 'fa fa-5x fa-key',
             'colour'=> 'success'
         ],
         'Posts' => [
             'name'  => "Posts",
-            'route' => 'watchtower.posts.index',
+            'route' => 'dash.posts.index',
             'icon'  => 'fa fa-5x fa-key',
             'colour'=> 'success'
         ],
        'Uploads' => [
             'name'  => "Uploads",
-            'route' => 'watchtower.uploads.index',
+            'route' => 'dash.uploads.index',
             'icon'  => 'fa fa-5x fa-key',
             'colour'=> 'success'
         ],

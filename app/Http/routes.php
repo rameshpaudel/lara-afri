@@ -11,7 +11,9 @@
 |
  */
 
-
+Event::listen('illuminate.query',function ($query){
+	var_dump($query);
+});
 
 
 Route::group( ['middleware' => ['throttle'] ],  function() {
@@ -23,7 +25,7 @@ Route::group( ['middleware' => ['throttle'] ],  function() {
 
 	Route::post('tag-subscribe', 'TagsSubscriptionController@subscribe');
 	Route::get('tag-posts','PostsController@getByTag');
-	//Route::post('watchtower/tag-feed', 'PostsController@feed');
+	//Route::post('dash/tag-feed', 'PostsController@feed');
 
 	Route::get('tag-feed', 'PostsController@feed');
 
@@ -53,9 +55,9 @@ Route::group( ['middleware' => ['throttle'] ],  function() {
 
 	Route::get('admin/verify-users','UserVerifyController@approve');
 
-	Route::resource('watchtower/posts',PostsController::class);
+	Route::resource('dash/posts',PostsController::class);
 	Route::resource('tags', TagsSubscriptionController::class);
-	Route::resource('watchtower/uploads',UploadsController::class);
+	Route::resource('dash/uploads',UploadsController::class);
 });
 
 
@@ -77,6 +79,7 @@ Route::group(['prefix' => 'api/v1','middleware' => ['throttle:30,1']], function 
 	Route::post('register/business-account','UserRegistrationController@registerBusinessAccount');
 
 	Route::resource('posts', PostsController::class);
+	Route::resource('carousels', CarouselsController::class);
 	Route::resource('tags', TagsSubscriptionController::class);
 
 	/*

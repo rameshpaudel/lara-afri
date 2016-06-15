@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePackagesTable extends Migration
+class CreateCategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,13 +12,11 @@ class CreatePackagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('packages', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->text('description');
-            $table->decimal('amount', 5, 2);
-            //Duration to be placed in months
-            $table->integer('duration');
+            $table->string('icon');
             $table->timestamps();
         });
     }
@@ -30,6 +28,6 @@ class CreatePackagesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('packages');
+        Schema::drop('categories');
     }
 }

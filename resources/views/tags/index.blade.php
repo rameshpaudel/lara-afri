@@ -9,7 +9,7 @@
         @foreach($tags->tags as $tag)
             {!! Form::open( [ 'action' => 'TagsSubscriptionController@subscribe' ,'method' => 'POST'] ) !!}
                 {!! Form::hidden('tag_id',$tag->id)  !!}
-                <button type="submit"><span class="badge">{{$tag->name}}</span></button>
+                <button type="submit" class="badge">{{$tag->name}}</button>
             {!! Form::close() !!}
         @endforeach
     @endforeach
